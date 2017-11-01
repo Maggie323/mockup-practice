@@ -1,0 +1,60 @@
+/*
+nav {
+  border-color: plum;
+  color: aliceblue;
+}
+
+*/
+
+body{
+/*  change my background, and set global font family*/ 
+}
+
+
+header h1 {
+  /* make bigger and color, change font-family: sans serif */
+  color: mediumpurple;
+  font-family: sans-serif;
+}
+
+.main-nav {
+  /*change background color, remove bullets, border on each individual nav element. float the links , center our content within the links. width on links. font color. change font family*/
+  float: left;
+  color: whitesmoke;
+  background-image: plum;
+  border-style: dotted;
+  border-color: black;
+  text-align: center;
+  
+}
+
+.aside {
+/*  clear float first (clear both, then clear left), then add background color, float*/
+  background-color: lightpink;
+  float: left;
+}
+
+aside.ul {
+/* clear both */
+  
+}
+
+
+.content-wrapper {
+/* change background color , float to the right?*/
+  float: right;
+  background-color: gainsboro;
+}
+
+
+figure {
+/* figure, we want to center that using 'margin:auto' */
+  
+} 
+
+footer {
+  
+/* images float left and centered on the page */
+  clear: both;
+  text-align: center;
+}
